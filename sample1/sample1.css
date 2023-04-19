@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(241, 235, 231);
+}
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+}
+
+.serviceBox{
+    color: rgb(33, 20, 207);
+    background: linear-gradient(transparent 65%,#7868 65%);
+    font-family: 'kumbh Sans', sans-serif;
+    text-align: center;
+    padding: 0 15px 15px;
+    border-radius: 0 0 150px 150px;
+    box-shadow: 0 12px 7px -7px rgb(1, 13, 37);
+}
+
+.serviceBox .service-icon{
+    color: rgb(15, 223, 178);
+    background-color: rgb(142, 142, 243);
+    font-size: 50px;
+    height: 80px;
+    width: 85px;
+    line-height: 80px;
+    margin: 0 auto 25px;
+    border-radius: 0 0 50px;
+}
+
+.serviBox .service-content{
+    background-color: #fff;
+    padding: 0 20px 20px;
+    border-radius: 15px 15px 150px 150px ;
+    border-top: 15px solid rgba(13, 183, 235, 0.533);
+    box-shadow: 0 10px 20px rgba(12, 12, 11, 0.267);
+}
+
+.serviBox .title{
+    color: rgb(196, 39, 39);
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 0 7px;
+}
+
+.serviBox .description{
+    font-size: 14px;
+    margin: 0 0 15x;
+}
+
+.serviceBox .read-more{
+    color: rgb(131, 215, 236);
+    font-size: 14px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.serviceBox .read-more:hover{
+    color: azure;
+    border-bottom: 1px dashed #999;
+}
+
